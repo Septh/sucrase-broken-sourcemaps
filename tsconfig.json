@@ -1,0 +1,39 @@
+{
+  "include": [
+    "./source/**/*"
+  ],
+  "compilerOptions": {
+
+    // Input
+    "rootDir": "source",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "verbatimModuleSyntax": false,
+    "checkJs": true,
+
+    // Output
+    "outDir": "out-tsc",
+    "target": "ESNext",
+    "module": "Node16",
+    "sourceMap": true,
+    "inlineSources": true,
+
+    // Libs
+    "lib": [ "ESNext" ],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+
+    // Type checking
+    "strict": true,
+    "exactOptionalPropertyTypes": false,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noPropertyAccessFromIndexSignature": false,
+    "noUncheckedIndexedAccess": false,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noFallthroughCasesInSwitch": false,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": false
+  }
+}
