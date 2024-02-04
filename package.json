@@ -4,8 +4,8 @@
   "main": "sucrase.js",
   "type": "module",
   "scripts": {
-    "compile:tsc": "tsc",
-    "compile:sucrase": "node ."
+    "tsc": "tsc",
+    "sucrase": "node sucrase.js"
   },
   "devDependencies": {
     "@types/node": "^20.11.16",
